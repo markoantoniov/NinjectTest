@@ -1,0 +1,18 @@
+﻿[
+	{
+		"nombre": "Cliente1",
+		"apellidos": "Importado desde JSON"
+	},
+	{
+		"nombre": "Cliente2",
+		"apellidos": "Importado desde JSON"
+	},
+	{
+		"nombre": "Cliente3",
+		"apellidos": "Importado desde JSON"
+	},
+	{
+		"nombre": "Cliente4",
+		"apellidos": "Importado desde JSON"
+	}
+]

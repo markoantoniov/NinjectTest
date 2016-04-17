@@ -1,0 +1,16 @@
+﻿<Window x:Class="NinjecTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="232" Width="334">
+    <Grid Margin="0,0,2,-2">
+        <Button x:Name="btnDatosJSON" Content="Datos JSON" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="141" Click="btnDatosJSON_Click"/>
+        <Button x:Name="btnDatosXML" Content="Datos XML" HorizontalAlignment="Left" Margin="173,10,0,0" VerticalAlignment="Top" Width="141" Click="btnDatosXML_Click"/>
+        <DataGrid x:Name="grdClientes" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Height="149" Width="304">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding nombre}" ClipboardContentBinding="{x:Null}" Header="Nombre"/>
+                <DataGridTextColumn Binding="{Binding apellidos}" ClipboardContentBinding="{x:Null}" Header="Apellidos"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
